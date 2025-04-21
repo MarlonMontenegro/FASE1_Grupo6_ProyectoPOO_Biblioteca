@@ -1,0 +1,43 @@
+# === Archivos del IDE ===
+.idea/
+*.iml
+
+# === Build ===
+/out/
+/bin/
+/target/
+
+# === Archivos del sistema ===
+.DS_Store
+Thumbs.db
+
+# === Logs y temporales ===
+*.log
+*.tmp
+
+# === Archivos compilados ===
+*.class
+
+# === Archivos de empaquetado ===
+*.jar
+*.war
+*.ear
+
+# === Archivos de bases de datos locales ===
+*.sqlite
+*.db
+
+# === Configuración de entorno local ===
+.env
+.env.local
+
+# === Otros comunes en Java ===
+*.swp
+*.swo
+
+# === Configuración de NetBeans (si se usa) ===
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
