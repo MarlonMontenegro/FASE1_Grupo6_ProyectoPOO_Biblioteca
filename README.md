@@ -6,8 +6,6 @@ Este repositorio contiene la solución completa a los desafíos planteados en la
 
 - [Resumen del desafío](#resumen-del-desafío)
 - [Tecnologías utilizadas](#tecnologías-utilizadas)
-- [Desafío 1 - Análisis y base de datos](#desafío-1---análisis-y-base-de-datos)
-- [Desafío 2 - Desarrollo del sistema](#desafío-2---desarrollo-del-sistema)
 - [Ejecución del proyecto](#ejecución-del-proyecto)
 - [Autores](#autores)
 
@@ -34,20 +32,9 @@ Este repositorio contiene la solución completa a los desafíos planteados en la
 
 ---
 
-## Desafío 1 - Análisis y base de datos
 
-- Diagrama de casos de uso en UML
-- Modelo entidad-relación (ER)
-- Script SQL de creación de tablas
-- Convenciones para código de materiales:
-  - LIBxxxxx → Libros
-  - REVxxxxx → Revistas
-  - CDAxxxxx → CDs de audio
-  - DVDxxxxx → DVDs
 
----
-
-## Desafío 2 - Desarrollo del sistema
+## Desarrollo del sistema
 
 ### Funcionalidades:
 
