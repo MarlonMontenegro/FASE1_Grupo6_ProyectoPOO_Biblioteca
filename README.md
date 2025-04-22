@@ -59,14 +59,6 @@ Este repositorio contiene la solución completa a los desafíos planteados en la
 - Validación de entradas
 - Almacenamiento en archivos o conexión a base de datos
 
----
-
-## Ejecución del proyecto
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tuusuario/proyecto-mediateca.git
-   ```
 
 ## Autores
 
