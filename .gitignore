@@ -19,7 +19,6 @@ Thumbs.db
 *.class
 
 # === Archivos de empaquetado ===
-*.jar
 *.war
 *.ear
 
