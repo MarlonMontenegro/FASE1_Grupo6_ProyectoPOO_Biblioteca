@@ -1,23 +1,23 @@
 package src.model;
 
 public class DVD extends MaterialAudiovisual{
-    private int director;
+    private String director;
 
     public DVD() {
     }
 
-    public DVD(String codigoIdentificacion, String titulo, String genero, String duracion, int director) {
+    public DVD(String codigoIdentificacion, String titulo, String genero, String duracion, String director) {
         super(codigoIdentificacion, titulo, genero, duracion);
         this.director = director;
     }
 
-    public int getDirector() {
+    public String getDirector() {
 
 
         return director;
     }
 
-    public void setDirector(int director) {
+    public void setDirector(String director) {
         this.director = director;
     }
 
