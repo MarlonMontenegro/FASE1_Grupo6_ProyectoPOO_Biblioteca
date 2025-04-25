@@ -125,11 +125,11 @@ public class LibroDAO implements MaterialDAO<Libro> {
     }
 
     /**
-     * Elimina un libro de la base de datos usando su identificador interno.
+     * Elimina un libro de la base de datos usando su ID.
      * Al eliminar el registro de la tabla 'Material', la fila asociada en
      * 'Libro' se elimina automáticamente gracias a la cláusula ON DELETE CASCADE.
      *
-     * @param id Número correlativo del código de identificación del libro (ej. 7 para LIB00007).
+     * @param id Número correlativo del código de identificación del libro.
      * @return true si el registro fue eliminado, false en caso de error o si no se encontró.
      */
     @Override
@@ -149,10 +149,10 @@ public class LibroDAO implements MaterialDAO<Libro> {
     }
 
     /**
-     * Busca un libro en la base de datos según su identificador único.
-     * Recupera información de las tablas 'Material' y 'Libro' usando una combinación JOIN.
+     * Busca un libro en la base de datos según su ID.
+     * Recupera información de las tablas 'Material' y 'Libro'.
      *
-     * @param id Identificador completo del libro (ej. "LIB00042").
+     * @param id Identificador completo del libro.
      * @return Objeto Libro si se encuentra, o null si no existe o ocurre un error.
      */
     @Override

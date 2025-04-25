@@ -7,8 +7,9 @@ public abstract class MaterialAudiovisual extends Material {
     public MaterialAudiovisual() {
     }
 
-    public MaterialAudiovisual(String codigoIdentificacion, String titulo, String genero, String duracion) {
-        super(codigoIdentificacion, titulo);
+
+    public MaterialAudiovisual(String codigoIdentificacion, String titulo, int unidadesDisponibles, String genero, String duracion) {
+        super(codigoIdentificacion, titulo, unidadesDisponibles);
         this.genero = genero;
         this.duracion = duracion;
     }

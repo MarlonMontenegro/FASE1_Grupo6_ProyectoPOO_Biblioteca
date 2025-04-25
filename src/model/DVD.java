@@ -6,8 +6,8 @@ public class DVD extends MaterialAudiovisual{
     public DVD() {
     }
 
-    public DVD(String codigoIdentificacion, String titulo, String genero, String duracion, String director) {
-        super(codigoIdentificacion, titulo, genero, duracion);
+    public DVD(String codigoIdentificacion, String titulo, int unidadesDisponibles, String genero, String duracion, String director) {
+        super(codigoIdentificacion, titulo, unidadesDisponibles, genero, duracion);
         this.director = director;
     }
 

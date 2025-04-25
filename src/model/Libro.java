@@ -1,6 +1,6 @@
 package src.model;
 
-public class Libro extends MaterialEscirto {
+public class Libro extends MaterialEscrito {
 
     private String autor;
     private int numeroPaginas;
@@ -11,9 +11,8 @@ public class Libro extends MaterialEscirto {
     public Libro() {
     }
 
-
-    public Libro(String codigoIdentificacion, String titulo, String editorial, int unidadesDisponibles, String autor, int numeroPaginas, String isbn, String anioPublicacion) {
-        super(codigoIdentificacion, titulo, editorial, unidadesDisponibles);
+    public Libro(String codigoIdentificacion, String titulo, int unidadesDisponibles, String editorial, String autor, int numeroPaginas, String isbn, String anioPublicacion) {
+        super(codigoIdentificacion, titulo, unidadesDisponibles, editorial);
         this.autor = autor;
         this.numeroPaginas = numeroPaginas;
         this.isbn = isbn;

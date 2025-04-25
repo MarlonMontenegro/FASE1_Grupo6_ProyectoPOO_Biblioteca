@@ -47,7 +47,7 @@ public class RevistaDAO implements MaterialDAO<Revista> {
                 stmtRevista.setString(1, revista.getCodigoIdentificacion());
                 stmtRevista.setString(2, revista.getEditorial());
                 stmtRevista.setString(3, revista.getPeriodicidad());
-                stmtRevista.setDate(4, java.sql.Date.valueOf(revista.getFechaPublicacion())); //TODO revisar fechas
+                stmtRevista.setString(4, revista.getFechaPublicacion());
 
                 stmtRevista.executeUpdate();
 

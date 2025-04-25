@@ -1,14 +1,15 @@
 package src.model;
 
-public class Revista extends MaterialEscirto {
+public class Revista extends MaterialEscrito {
 
     private String periodicidad;
     private String fechaPublicacion;
 
     public Revista() {}
 
-    public Revista(String codigoIdentificacion, String titulo, String editorial, int unidadesDisponibles, String periodicidad, String fechaPublicacion) {
-        super(codigoIdentificacion, titulo, editorial, unidadesDisponibles);
+
+    public Revista(String codigoIdentificacion, String titulo, int unidadesDisponibles, String editorial, String periodicidad, String fechaPublicacion) {
+        super(codigoIdentificacion, titulo, unidadesDisponibles, editorial);
         this.periodicidad = periodicidad;
         this.fechaPublicacion = fechaPublicacion;
     }
