@@ -15,6 +15,9 @@ public class CDDAO implements MaterialDAO<CDdeAudio> {
 
     private static final Logger logger = LogManager.getLogger(CDDAO.class);
 
+
+
+
     /**
      * Inserta un nuevo CD de audio en la base de datos.
      * Primero registra el material general y luego los datos específicos del CD.
