@@ -52,4 +52,5 @@ public class LoginDAO {
         return usuario != null && usuario.getContrasena().equals(inputContrasena);
     }
 
+    //TODO: Hacer el recuperar Contraseña
 }

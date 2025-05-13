@@ -1,5 +1,7 @@
 package model;
 
+import view.AdminView;
+
 import javax.swing.*;
 
 public class Admin extends Usuario {
@@ -10,6 +12,9 @@ public class Admin extends Usuario {
 
     @Override
     public void redirect(JFrame ventana) {
-
+        new AdminView(); // Abre la vista del panel de administración
+        if (ventana != null) {
+            ventana.dispose(); // Cierra la ventana anterior (login)
+        }
     }
 }
