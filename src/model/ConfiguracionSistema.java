@@ -1,4 +1,4 @@
-package src.model;
+package model;
 
 public class ConfiguracionSistema {
     private int id;

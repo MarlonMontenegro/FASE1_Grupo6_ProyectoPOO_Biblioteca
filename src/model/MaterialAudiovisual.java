@@ -1,4 +1,4 @@
-package src.model;
+package model;
 
 public abstract class MaterialAudiovisual extends Material {
     protected String genero;

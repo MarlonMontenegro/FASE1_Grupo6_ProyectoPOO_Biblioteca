@@ -1,7 +1,7 @@
-package src.dao;
+package dao;
 
-import src.model.CDdeAudio;
-import src.util.DBConnection;
+import model.CDdeAudio;
+import util.DBConnection;
 
 import java.sql.*;
 import java.util.ArrayList;

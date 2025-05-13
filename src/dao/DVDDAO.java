@@ -1,6 +1,6 @@
-package src.dao;
+package dao;
 
-import src.model.DVD;
+import model.DVD;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -10,7 +10,7 @@ import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import src.util.DBConnection;
+import util.DBConnection;
 
 public class DVDDAO implements MaterialDAO<DVD> {
 

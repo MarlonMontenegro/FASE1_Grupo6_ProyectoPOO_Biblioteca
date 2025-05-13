@@ -1,4 +1,4 @@
-package src.model;
+package model;
 
 public class CDdeAudio extends MaterialAudiovisual{
     private String artista;

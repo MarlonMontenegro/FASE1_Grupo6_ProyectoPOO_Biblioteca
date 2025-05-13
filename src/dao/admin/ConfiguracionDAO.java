@@ -1,7 +1,7 @@
-package src.dao.admin;
+package dao.admin;
 
-import src.model.ConfiguracionSistema;
-import src.util.DBConnection;
+import model.ConfiguracionSistema;
+import util.DBConnection;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

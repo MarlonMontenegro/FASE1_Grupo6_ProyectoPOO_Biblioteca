@@ -1,7 +1,7 @@
-package src.controllers;
+package controllers;
 
-import src.model.Libro;
-import src.dao.LibroDAO;
+import model.Libro;
+import dao.LibroDAO;
 import java.util.List;
 
 public class LibroController {

@@ -1,8 +1,8 @@
-package src.dao.admin;
+package dao.admin;
 
-import src.dao.CDDAO;
-import src.model.*;
-import src.util.DBConnection;
+import dao.CDDAO;
+import model.*;
+import util.DBConnection;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class AdminDAO implements UserDAO{
+public class AdminDAO implements UserDAO {
 
     private static final Logger logger = LogManager.getLogger(CDDAO.class);
 

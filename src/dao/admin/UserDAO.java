@@ -1,6 +1,6 @@
-package src.dao.admin;
+package dao.admin;
 
-import src.model.Usuario;
+import model.Usuario;
 
 import java.util.List;
 

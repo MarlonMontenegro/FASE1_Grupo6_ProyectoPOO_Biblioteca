@@ -1,7 +1,7 @@
-package src.dao;
+package dao;
 
-import src.model.*;
-import src.util.DBConnection;
+import model.*;
+import util.DBConnection;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

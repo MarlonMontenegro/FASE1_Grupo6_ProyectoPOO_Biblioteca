@@ -1,7 +1,7 @@
-package src.dao;
+package dao;
 
-import src.model.Libro;
-import src.util.DBConnection;
+import model.Libro;
+import util.DBConnection;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

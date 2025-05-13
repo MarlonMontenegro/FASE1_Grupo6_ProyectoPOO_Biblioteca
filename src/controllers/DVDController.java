@@ -1,7 +1,7 @@
-package src.controllers;
+package controllers;
 
-import src.model.DVD;
-import src.dao.DVDDAO;
+import model.DVD;
+import dao.DVDDAO;
 import java.util.List;
 
 public class DVDController {

@@ -1,8 +1,8 @@
-package src.controllers;
+package controllers;
 
 
-import src.dao.RevistaDAO;
-import src.model.Revista;
+import dao.RevistaDAO;
+import model.Revista;
 
 import java.util.List;
 

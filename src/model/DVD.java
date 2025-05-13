@@ -1,4 +1,4 @@
-package src.model;
+package model;
 
 public class DVD extends MaterialAudiovisual{
     private String director;

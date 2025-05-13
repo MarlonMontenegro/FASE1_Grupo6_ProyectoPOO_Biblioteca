@@ -1,7 +1,7 @@
-package src.controllers;
+package controllers;
 
-import src.dao.LoginDAO;
-import src.model.Usuario;
+import dao.LoginDAO;
+import model.Usuario;
 
 public class LoginController {
 

@@ -1,7 +1,7 @@
-package src.controllers;
+package controllers;
 
-import src.dao.CDDAO;
-import src.model.CDdeAudio;
+import dao.CDDAO;
+import model.CDdeAudio;
 import java.util.List;
 
 public class CDController  {

@@ -1,6 +1,6 @@
-package src.dao;
+package dao;
 
-import src.model.Revista;
+import model.Revista;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -11,7 +11,7 @@ import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import src.util.DBConnection;
+import util.DBConnection;
 
 public class RevistaDAO implements MaterialDAO<Revista> {
 
