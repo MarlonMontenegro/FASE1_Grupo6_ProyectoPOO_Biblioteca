@@ -11,10 +11,7 @@ public class Admin extends Usuario {
     }
 
     @Override
-    public void redirect(JFrame ventana) {
-        new AdminView(); // Abre la vista del panel de administración
-        if (ventana != null) {
-            ventana.dispose(); // Cierra la ventana anterior (login)
-        }
+    public void redirect() {
+        new AdminView().setVisible(true);
     }
 }

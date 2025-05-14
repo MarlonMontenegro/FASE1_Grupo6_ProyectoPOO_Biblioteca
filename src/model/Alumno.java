@@ -9,7 +9,7 @@ public class Alumno extends Usuario {
     }
 
     @Override
-    public void redirect(JFrame ventana) {
+    public void redirect() {
             //TODO: Agregar la vista
     }
 }

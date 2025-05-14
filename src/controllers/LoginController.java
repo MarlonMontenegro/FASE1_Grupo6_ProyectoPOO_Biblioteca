@@ -21,7 +21,7 @@ public class LoginController {
             return;
         }
 
-        usuario.redirect(null);
+        usuario.redirect();
     }
 
 }

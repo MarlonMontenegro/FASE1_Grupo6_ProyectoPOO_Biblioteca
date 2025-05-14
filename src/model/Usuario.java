@@ -51,5 +51,5 @@ public abstract class Usuario {
         this.rol = rol;
     }
 
-    public abstract void redirect(JFrame ventana);
+    public abstract void redirect();
 }
