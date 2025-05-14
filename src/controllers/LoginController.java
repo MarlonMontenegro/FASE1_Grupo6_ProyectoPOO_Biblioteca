@@ -21,9 +21,6 @@ public class LoginController {
             return;
         }
 
-        // Si todo está bien, redirigir al tipo de usuario correspondiente
-        System.out.println("Login exitoso. Rol: " + usuario.getRol());
-
         usuario.redirect(null);
     }
 
