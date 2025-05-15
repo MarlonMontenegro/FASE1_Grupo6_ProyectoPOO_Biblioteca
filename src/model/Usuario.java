@@ -1,6 +1,5 @@
 package model;
 
-import javax.swing.*;
 
 public abstract class Usuario {
 
